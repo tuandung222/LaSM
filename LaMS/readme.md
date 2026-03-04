@@ -1,6 +1,6 @@
 # Readme
 
-This supplementary repository contains all necessary code and datasets to fully reproduce the experiments presented in our dissertation. It includes two main folders: `Code` and `Dataset`, as well as a `envirnment.yml` file to facilitate Conda environment setup.
+This supplementary repository contains all necessary code and datasets to fully reproduce the experiments presented in our dissertation. It includes two main folders: `Source` and `Dataset`, as well as a `envirnment.yml` file to facilitate Conda environment setup.
 
 ## Code
 
