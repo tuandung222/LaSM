@@ -1,2 +1,0 @@
-# requirements.txt
-git+https://github.com/YANGTUOMAO/LibA.git#egg=liba
