@@ -1,14 +1,5 @@
 # Báo Cáo Kiểm Chứng Thực Nghiệm Nhẹ (Lightweight Empirical Verification) — LaSM (CVPR 2026)
 
-> **Thông Tin Tài Liệu / Document Metadata:**
-> - **Tác giả / Học viên:** Võ Phạm Tuấn Dũng (MSHV: 2570015) — `@tuandung222`
-> - **Cán bộ Hướng dẫn:** TS. Lê Xuân Bách
-> - **Chuyên ngành:** Thạc sĩ Khoa học Dữ liệu & Trí tuệ Nhân tạo Ứng dụng (CDNC AI - Khóa 261)
-> - **Đơn vị:** Khoa Khoa học & Kỹ thuật Máy tính, Trường ĐH Bách Khoa, ĐHQG-HCM (HCMUT)
-> - **Đề tài:** TrustSight (*An Empirical Study of Anchored Visual Perception for Prompt-Injection-Resistant Multimodal Agents*)
-> - **Mục tiêu:** bài phương pháp, hội nghị CV hạng A* (CVPR 2027 nếu kịp)
-> - **Ngày giờ biên soạn / Cập nhật (Timestamp):** 2026-11-01 05:26:58 (GMT+7)
-
 ---
 
 ## 1. Cấu Hình Kiểm Chứng

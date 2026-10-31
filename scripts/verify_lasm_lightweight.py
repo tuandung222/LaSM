@@ -1,15 +1,4 @@
-"""
-Lightweight Empirical Verification of LaSM (CVPR 2026) on Few Cases.
-
-Thông Tin Tài Liệu / Document Metadata:
-- Tác giả / Học viên: Võ Phạm Tuấn Dũng (MSHV: 2570015) — `@tuandung222`
-- Cán bộ Hướng dẫn: TS. Lê Xuân Bách
-- Chuyên ngành: Thạc sĩ Khoa học Dữ liệu & Trí tuệ Nhân tạo Ứng dụng (CDNC AI - Khóa 261)
-- Đơn vị: Khoa Khoa học & Kỹ thuật Máy tính, Trường ĐH Bách Khoa, ĐHQG-HCM (HCMUT)
-- Đề tài: TrustSight (An Empirical Study of Anchored Visual Perception for Prompt-Injection-Resistant Multimodal Agents)
-- Mục tiêu: bài phương pháp, hội nghị CV hạng A* (CVPR 2027 nếu kịp)
-- Ngày giờ biên soạn / Cập nhật (Timestamp): 2026-11-01 05:08:15 (GMT+7)
-"""
+"""Lightweight Empirical Verification of LaSM (CVPR 2026) on Few Cases."""
 
 from __future__ import annotations
 
