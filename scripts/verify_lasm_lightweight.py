@@ -22,7 +22,7 @@ from pathlib import Path
 from typing import Any
 
 import torch
-from qwen_vl_utils import process_vision_info
+from PIL import Image
 from transformers import AutoModelForImageTextToText, AutoProcessor
 
 SCALED_PROJECTIONS = (
@@ -135,11 +135,12 @@ def run_single_inference(
     prompt_text: str,
     max_new_tokens: int = 64,
 ) -> str:
+    img = Image.open(image_path).convert("RGB")
     messages = [
         {
             "role": "user",
             "content": [
-                {"type": "image", "image": image_path},
+                {"type": "image", "image": img},
                 {"type": "text", "text": prompt_text},
             ],
         }
@@ -147,11 +148,9 @@ def run_single_inference(
     text = processor.apply_chat_template(
         messages, tokenize=False, add_generation_prompt=True
     )
-    image_inputs, video_inputs = process_vision_info(messages)
     inputs = processor(
         text=[text],
-        images=image_inputs,
-        videos=video_inputs,
+        images=[img],
         padding=True,
         return_tensors="pt",
     ).to(model.device)
