@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+dataset/android_base_cache/
+dataset/hf_export/
+*.pdf
+results_*.json
