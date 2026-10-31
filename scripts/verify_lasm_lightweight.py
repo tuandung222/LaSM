@@ -221,11 +221,15 @@ def main() -> None:
     print(f"Loading model: {args.model_path} ...")
     model = AutoModelForImageTextToText.from_pretrained(
         args.model_path,
-        torch_dtype=torch.bfloat16,
+        torch_dtype=torch.float16,
         device_map="auto",
     )
     model.eval()
-    processor = AutoProcessor.from_pretrained(args.model_path)
+    processor = AutoProcessor.from_pretrained(
+        args.model_path,
+        min_pixels=256 * 28 * 28,
+        max_pixels=1280 * 28 * 28,
+    )
 
     num_layers = len(get_decoder_layers(model))
     print(
